@@ -87,4 +87,8 @@ span {
 
 div.feature {
     padding-bottom: 15px;
+
+a#kontemplate {
+    font-weight: bold;
+    color: #e4e4ef;
 }
