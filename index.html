@@ -2,10 +2,11 @@
 <html>
 
   <head>
-	<meta charset="utf-8">
-	<title>kontemplate</title>
-	<link rel="stylesheet" type="text/css" href="site.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kontemplate</title>
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
@@ -16,14 +17,45 @@
 
       <p><strong>kontemplate</strong> is a tool for templating Kubernetes cluster resources for different environments. It supports expressive templates and simple per-environment configuration files, but also scales to more complex use-cases by making advanced features usable incrementally.</p>
 
-      <p>Many tools exist in this space, most notably <a href="https://helm.sh/">Helm</a>, but often they come with complexity and overhead that is not required in simple scenarios. Kontemplate attempts to do only what the user expects, requires no moving components in the clusters and is easy to understand and get started with.</p>
+      <p>Many tools exist in this space, most notably <a href="https://helm.sh/">Helm</a>, but often they come with complexity and overhead that is not required in simple scenarios. Kontemplate attempts to do only what the user expects, requires <strong>no moving components</strong> in the clusters and is easy to understand and get started with.</p>
 
-      <p>Despite being implemented in Go, kontemplate has proven stable in several production deployments.</p>
+      <p>Despite being implemented in Go, kontemplate has <span id="stable">proven stable</span> in several production deployments.</p>
     </header>
 
     <section id="features">
       <h2>Features</h2>
       <hr class="features">
+
+      <div class="features">
+        <div class="feature">
+          <span id="templates">Simple, yet powerful <a id="templates" href="https://github.com/tazjin/kontemplate/blob/feat/docs-revamp/docs/templates.md">templates</a></span> with support for anything from variable interpolation to complex template logic.
+        </div>
+        <div class="feature">
+          <span id="contexts">Clean, per-cluster <a id="contexts" href="TODO">configuration files</a></span> in either YAML or JSON to define what should be deployed and how.
+        </div>
+        <div class="feature">
+          <span id="organisation">Easy organisation</span> of Kubernetes resources into reusable <a id="organisation" href="TODO">resource sets</a>. Need to deploy something twice, with different configurations? No problem.
+        </div>
+        <div class="feature">
+          <span id="kubectl">Integration with <strong>kubectl</strong></span> including support for dry-run template validation against a Kubernetes server and automatic context switching.
+        </div>
+        <div class="feature">
+          <span id="pass"><a id="pass" href="TODO">Support</a> for <a id="pass" href="https://www.passwordstore.org/">pass</a></span>, the standard UNIX password manager.
+        </div>
+        <div class="feature">
+          ... and <a href="TODO">more</a> on the horizon!
+        </div>
+      </div>
+    </section>
+
+    <section id="usage">
+      <h2>Usage</h2>
+      <hr class="usage">
+    </section>
+
+    <section id="getting-started">
+      <h2>Getting started</h2>
+      <hr class="getting-started">
     </section>
   </body>
 </html>
