@@ -97,9 +97,13 @@ span {
     color: #9e9e9e
 }
 
-span.code,p.code {
+span.code,div.code {
     font-weight: normal;
     font-family: monospace;
+}
+
+div.code {
+    overflow-x: auto
 }
 
 a#kontemplate {
