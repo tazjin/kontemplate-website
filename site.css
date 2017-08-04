@@ -35,7 +35,7 @@ hr.header {
 }
 
 hr.features {
-    border-color: #ac5a82
+    border-color: #e8e8e8
 }
 
 hr.usage {
@@ -43,7 +43,7 @@ hr.usage {
 }
 
 hr.getting-started {
-    border-color: #e8e8e8
+    border-color: #ac5a82
 }
 
 @media only screen and (min-width: 768px) {
