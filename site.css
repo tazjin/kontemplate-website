@@ -98,6 +98,8 @@ span {
 }
 
 span.code,div.code {
+    background-color: #282828;
+    border-radius: 5px;
     font-weight: normal;
     font-family: monospace;
 }
