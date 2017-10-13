@@ -10,8 +10,7 @@ body {
 	margin: 2em auto;
 	max-width: 800px;
 	padding: 1em;
-	line-height: 1.4;
-	text-align: justify
+	line-height: 1.3;
 }
 
 a {
@@ -31,7 +30,7 @@ h2 {
 }
 
 section {
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 hr.header {
@@ -105,6 +104,7 @@ span.code,div.code {
 }
 
 div.code {
+    padding: 7px;
     overflow-x: auto
 }
 
